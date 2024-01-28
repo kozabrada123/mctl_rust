@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  mctl:
+    image: 'mctl'
+    build: '.'
+    hostname: 'mctl'
+    container_name: 'mctl'
+    restart: 'unless-stopped'
+    ports:
+    - '27573:27573'
+
+volumes:
+  bb-faros:
+    external: true

@@ -1,5 +1,5 @@
 [package]
-name = "mctl_rust"
+name = "mctl"
 version = "0.1.0"
 edition = "2021"
 
