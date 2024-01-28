@@ -1,0 +1,14 @@
+[default]
+address = "0.0.0.0"
+limits = { form = "64 kB", json = "64kB" }
+ident = "Faros"
+log_level = "debug"
+
+[debug]
+port = 8000
+
+[release]
+port = 27573
+ip_header = "X-Forwarded-For"
+secret_key = "hPrYyЭRiMyµ5sBB1π+CMæ1køFsåqKvBiQJxBVHQk="
+

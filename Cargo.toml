@@ -1,0 +1,17 @@
+[package]
+name = "mctl_rust"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "1.35.1", features = ["full"] }
+rocket = { version = "0.5.0", features = ["json"] }
+log = "0.4.20"
+serde = { version = "1.0.196", features = ["derive"] }
+argonautica = "0.2.0"
+futures = "0.3.30"
+toml = "0.8.8"
+custom_error = "1.9.2"
+git2 = "0.18.1"

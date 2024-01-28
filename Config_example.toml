@@ -1,0 +1,5 @@
+# The path to the server's main folder
+server_folder = ""
+
+# Argon2id hash of the auth key
+auth_key_hash = ""
